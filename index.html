@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>HUZLN | Your Hustle. Your Future.</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <main class="page">
+    <section class="hero">
+      <div class="nav">
+        <div class="logo">HUZLN</div>
+        <a href="#waitlist">Join Waitlist</a>
+      </div>
+
+      <div class="hero-content">
+        <p class="eyebrow">A new way to earn, work, and build experience.</p>
+        <h1>Your Hustle.<br>Your Future.</h1>
+        <p class="subhead">
+          HUZLN helps people earn money while building a verified work history.
+        </p>
+
+        <div class="cta-row">
+          <a href="#waitlist" class="button primary">Join the Waitlist</a>
+          <a href="#how" class="button secondary">How It Works</a>
+        </div>
+
+        <div class="trust-line">
+          Earn Money. Build Experience. Create Opportunities.
+        </div>
+      </div>
+    </section>
+
+    <section id="how" class="cards">
+      <article>
+        <span>1</span>
+        <h2>Find a Hustle</h2>
+        <p>Search local side jobs, quick work, farm help, yard work, moving help, and more.</p>
+      </article>
+
+      <article>
+        <span>2</span>
+        <h2>List a Hustle</h2>
+        <p>Need help? Post a local opportunity and connect with someone ready to work.</p>
+      </article>
+
+      <article>
+        <span>3</span>
+        <h2>Build a Record</h2>
+        <p>Completed Hustles help users build reviews, references, and verified work history.</p>
+      </article>
+    </section>
+
+    <section class="mission">
+      <h2>Break the Employment Conundrum.</h2>
+      <p>
+        Can't get a job without experience? Can't get experience without a job?
+        HUZLN gives people a way to start earning while proving they can show up,
+        work hard, and build a reputation one Hustle at a time.
+      </p>
+    </section>
+
+    <section id="waitlist" class="waitlist">
+      <h2>HUZLN is coming soon.</h2>
+      <p>Be one of the first to know when local Hustles become available.</p>
+
+      <form onsubmit="handleSubmit(event)">
+        <input id="name" type="text" placeholder="Your name" required />
+        <input id="email" type="email" placeholder="Email address" required />
+        <input id="zip" type="text" placeholder="ZIP code" required />
+        <button type="submit">Join Waitlist</button>
+      </form>
+
+      <p id="message" class="message"></p>
+    </section>
+
+    <footer>
+      <strong>HUZLN</strong>
+      <span>Powered by Hustle Employment LLC</span>
+    </footer>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
